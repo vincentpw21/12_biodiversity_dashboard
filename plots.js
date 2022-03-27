@@ -19,8 +19,8 @@ function init() {
 //   }
 //useful optionChanged function to update rest of HTML
 function optionChanged(newSample) {
-buildMetadata(newSample);
-buildCharts(newSample);
+  buildMetadata(newSample);
+  buildCharts(newSample);
 }
 
 function buildMetadata(sample) {

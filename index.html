@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
-<body>
+<body style = "background-color: rgb(247, 169, 52);">
 
   <div class="container">
     <div class="row">
@@ -22,7 +22,6 @@
       <div class="col-md-2">
         <div class="well">
           <h5>Test Subject ID No.:</h5>
-          <!-- <select id="selDataset"></select> -->
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
         <div class="panel panel-primary">
@@ -34,14 +33,19 @@
       </div>
       <div class="col-md-5">
         <div id="bar"></div>
+        <p><i><center>Chart shows top 10 cultures for the selected test subject.</center></i></p>
       </div>
       <div class="col-md-5">
         <div id="gauge"></div>
+        <p><i><center>Gauge and meter show number of washings for test subject.</center></i></p>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-2">
+        </div>
+      <div class="col-md-10">
         <div id="bubble"></div>
+        <p><i><center>Chart highlights the various bacterias present with bubble size highlighting number of cultures per sample. </center></i></p>
       </div>
     </div>
   </div>
